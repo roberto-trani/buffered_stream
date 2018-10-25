@@ -1,8 +1,9 @@
 #ifndef BUFFEREDWRITER_HPP
 #define BUFFEREDWRITER_HPP
 
-#include <iostream>
 #include <memory.h>
+#include <iostream>
+#include <stdexcept>
 
 
 template <bool use_write_constraint=false>

@@ -1,8 +1,9 @@
 #ifndef BUFFEREDREADER_HPP
 #define BUFFEREDREADER_HPP
 
-#include <iostream>
 #include <memory.h>
+#include <iostream>
+#include <stdexcept>
 
 
 template <bool use_read_constraint=false>
